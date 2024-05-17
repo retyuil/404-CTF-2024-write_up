@@ -1,7 +1,7 @@
 
 # Revers(ibl)e Engineering [1/2]
 
-Dans ce challenge, un serveur nous fournit un binaire différent à chaque fois, que nous devons analyser avec IDA Pro 🤢.
+Dans ce challenge, un serveur nous fournit un binaire différent à chaque fois, que nous devons analyser avec IDA Pro .
 
 En analysant le binaire, nous découvrons que notre entrée (un nombre hexadécimal de longueur 32, c'est-à-dire 16 octets) sera l'input d'une fonction effectuant plusieurs opérations et comparant le résultat avec une chaîne de caractères hexadécimaux contenue dans le binaire. Voici un extrait de la fonction :
 
